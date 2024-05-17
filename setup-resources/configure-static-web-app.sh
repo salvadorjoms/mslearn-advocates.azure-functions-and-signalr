@@ -5,7 +5,7 @@ SUBSCRIPTION_NAME=$(az account show --query 'name' -o tsv)
 echo "Using default subscription: $SUBSCRIPTION_NAME"
 
 # Set the resource group name
-RESOURCE_GROUP_NAME="stock-prototype"
+RESOURCE_GROUP_NAME="JOMARMSALVADOR-signalr-7e1e5fb50f"
 
 # Get the first Cosmos DB account in the resource group
 echo "Getting the first Cosmos DB account in the resource group..."
